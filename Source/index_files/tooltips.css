@@ -1,0 +1,166 @@
+/*!
+ * cache=true
+ * @license Licences are viewable at this URL: https://gaia.hs.llnwd.net/e2/src/=/1449/src/css/widgets/tooltips.css
+ */
+
+
+/*! /src/css/widgets/tooltips.css */
+/* Toolpanel CSS */
+
+/* RESET OF CONTAINER */
+.gaia-tooltip-container .gaia-tooltip {
+    border: none;
+    padding: 0;
+    background-color: none;
+    position: relative;
+}
+.gaia-tooltip-container .gaia-tooltip .hd,
+.gaia-tooltip-container .gaia-tooltip .ft {
+    border: none;
+    padding: 0;
+    background-color: none;
+    position: static;
+}
+.gaia-tooltip-container .gaia-tooltip {
+    border: 3px solid #C6C6C6;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    color: #000;
+    width: auto;
+    font-size: 11px;
+    overflow: visible;
+}
+
+.gaia-tooltip-container .gaia-tooltip .bd {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.gaia-tooltip-container .underlay {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.gaia-tooltip .closer,
+.gaia-tooltip .notch {
+    background: url(https://gaia.hs.llnwd.net/e1/images/tooltips/tooltip_sprite.gif) no-repeat scroll transparent;
+    overflow: hidden;
+}
+
+.gaia-tooltip .closer {
+    background-position: -4px -12px;
+    height: 8px;
+    width: 8px;
+    cursor: pointer;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+.gaia-tooltip .notch {
+    position: absolute;
+}
+.gaia-tooltip.top-left .notch,
+.gaia-tooltip.top-center .notch,
+.gaia-tooltip.top-right .notch,
+.gaia-tooltip.bottom-left .notch,
+.gaia-tooltip.bottom-center .notch,
+.gaia-tooltip.bottom-right .notch {
+    width: 16px;
+    height: 10px;
+}
+.gaia-tooltip.left-top .notch,
+.gaia-tooltip.left-center .notch,
+.gaia-tooltip.left-bottom .notch,
+.gaia-tooltip.right-top .notch,
+.gaia-tooltip.right-center .notch,
+.gaia-tooltip.right-bottom .notch {
+    width: 10px;
+    height: 16px;
+}
+
+.gaia-tooltip.top-left .notch,
+.gaia-tooltip.top-center .notch,
+.gaia-tooltip.top-right .notch {
+    background-position: 0px -22px;
+    bottom: -10px;
+}
+.gaia-tooltip.top-left   .notch {
+    left: 10px;
+}
+.gaia-tooltip.top-center .notch {
+    
+}
+.gaia-tooltip.top-right  .notch {
+    right: 10px;
+}
+.gaia-tooltip.right-top .notch, 
+.gaia-tooltip.right-center .notch,
+.gaia-tooltip.right-bottom .notch {
+    background-position: -16px -16px;
+    left: -10px;
+}
+
+.gaia-tooltip.right-top    .notch {
+    top: 5px;
+}
+
+.gaia-tooltip.right-center .notch {
+    
+}
+
+.gaia-tooltip.right-bottom .notch {
+    bottom: 5px;
+}
+
+.gaia-tooltip.bottom-left   .notch, 
+.gaia-tooltip.bottom-center .notch,
+.gaia-tooltip.bottom-right  .notch {
+    top: -10px;
+}
+
+.gaia-tooltip.bottom-left   .notch {
+    left: 10px;
+}
+
+.gaia-tooltip.bottom-center .notch {
+    
+}
+
+.gaia-tooltip.bottom-right  .notch {
+    right: 10px;
+}
+
+.gaia-tooltip.left-top .notch, 
+.gaia-tooltip.left-center .notch,
+.gaia-tooltip.left-bottom .notch {
+    background-position: -16px 0;
+    right: -10px;
+}
+
+.gaia-tooltip.left-top    .notch {
+    top: 5px;
+}
+
+.gaia-tooltip.left-center .notch {
+    
+}
+
+.gaia-tooltip.left-bottom .notch {
+    bottom: 5px;
+}
+
+.gaia-tooltip.right-center .notch,
+.gaia-tooltip.left-center .notch {
+    top: 50%;
+    margin-top: -8px;
+}
+
+.gaia-tooltip.bottom-center .notch,
+.gaia-tooltip.top-center .notch {
+    left: 50%;
+    margin-left: -8px;
+}
+/* END ToolTips */

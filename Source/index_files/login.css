@@ -1,0 +1,177 @@
+/*!
+ * cache=true
+ * @license Licences are viewable at this URL: https://gaia.hs.llnwd.net/e2/src/=/e143bb5df5304ae98988a03a4dabca2e-1449-267/src/css/login/login.css
+ */
+
+
+/*! /src/css/login/login.css */
+.member-login-container {
+    padding: 20px;
+    position: relative;
+}
+
+.member-login-content {
+    margin: 0 auto;
+    width: 375px;
+    position: relative;
+    background-color: #F9FAFC;
+    border: 1px solid #DDDDEE;
+    border-radius: 5px;
+}
+
+.member-login-content-wrapper {
+    padding: 9px 20px;
+}
+
+.sign-up-container,
+.log-in-container {
+    vertical-align: top;
+    display: inline-block;
+    zoom: 1;
+    *display:inline;
+}
+
+.log-in-container {
+    border-left: 1px solid #999999;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.headline-log-in {
+    text-indent: -1000px;
+    overflow: hidden;
+}
+
+.headline-log-in.loginheader {
+    background: transparent url(https://gaia.hs.llnwd.net/e1/images/login/hd_you_must_log_in.gif) scroll no-repeat -137px 0;
+    width: 560px;
+    height: 32px;
+    margin: 0 0 12px 0;
+}
+
+.headline-log-in.incorrectlogin {
+    background: transparent url(https://gaia.hs.llnwd.net/e1/images/login/hd_incorrect_login.gif) scroll no-repeat 0 0;
+    width: 400px;
+    height: 32px;
+    margin: 0 0 12px 0;
+}
+
+.log-in-warning {
+    display: none;
+    width: 335px;
+    margin-left: 105px;
+}
+
+.title-sign-up {
+    background: transparent url(https://gaia.hs.llnwd.net/e1/images/login/hd_sub_sign_up.gif) no-repeat;
+    height: 18px;
+    width: 60px;
+    margin: 0;
+    text-indent: -1000px;
+    overflow: hidden;
+}
+
+.title-log-in {
+    background: transparent url(https://gaia.hs.llnwd.net/e1/images/login/hd_sub_log_in.gif) no-repeat;
+    height: 18px;
+    width: 50px;
+    margin: 0;
+    text-indent: -1000px;
+    overflow: hidden;
+}
+
+.member-login-content .form-row{
+    font-size: 93%;
+    margin: 3px 0;
+}
+
+.member-login-content .form-row-submit {
+    margin-top: 9px;
+}
+
+.member-login-content input.form-text-field {
+    width: 172px;
+    height: 16px;
+    border: 1px solid #3e53a2;
+}
+
+.member-login-content #loginfields {
+    width: 176px;
+}
+
+.member-login-content .forgot-pass {
+    margin-left: 10px;
+}
+
+.member-login-content .form-row.form-row-remember-me {
+    margin: 8px 0;
+}
+
+.member-login-content form label {
+    display: block;
+    color: #5a4564;
+}
+
+.member-login-content #rememberInfoLabel {
+/*    width: 120px;
+    float: left;*/
+}
+
+.member-login-content span.error {
+    background: transparent url(https://gaia.hs.llnwd.net/e1/images/common/ic/ic_warning.gif) no-repeat scroll 2px top;
+    display: block;
+    height: 3em;
+    overflow: hidden;
+    padding: 0 0 0 19px;
+    width: 127px;
+    color: #c20023;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.member-login-content #signup {
+    width: 123px;
+}
+
+.btn-register {
+    background: transparent url(https://gaia.hs.llnwd.net/e1/images/gaia_global/guest_landing/bn_register_78x28.gif) no-repeat;
+    height: 28px;
+    width: 78px;
+    display: block;
+    margin-top: 44px;
+    margin-left: 10px;
+    text-indent: -1000px;
+    overflow: hidden;
+}
+
+.btn-log-in {
+    
+}
+
+.member-login-content #guest {
+    padding-top: 28px;
+    display: inline;
+}
+
+.member-login-content #guest a {
+    font-size: 11px;
+    color: #3e53a2;
+    text-decoration: none;
+    background: url(https://gaia.hs.llnwd.net/e1/images/gaia_global/body/arrows/ic_hyperlink_arrow_15x15.png) no-repeat;
+    padding: 0 0 0 18px;
+    display: block;
+    height: 15px;
+}
+
+.mrec, #logout-ad .mrec {
+	margin: 0 auto;
+}
+
+#memberloginForm a {
+  display: none;
+}
+
+#memberloginForm a[href] {
+  display: inline;
+}

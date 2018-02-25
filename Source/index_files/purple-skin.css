@@ -1,0 +1,53 @@
+/*!
+ * cache=true
+ * @license Licences are viewable at this URL: https://gaia.hs.llnwd.net/e2/src/=/e143bb5df5304ae98988a03a4dabca2e-1449-267/src/css/layout/purple-skin.css
+ */
+
+
+/*! /src/css/layout/purple-skin.css */
+html {
+    height: auto !important;
+    background-color: #3E284E;
+    background-image: url(https://gaia.hs.llnwd.net/e1/images/background/rs_tile_offset_diamond_purple_12x16.gif);
+}
+
+#header-content,
+#content,
+#footer-content {
+    margin: 0 auto;
+    width: 625px;
+}
+
+#header-content {
+    margin: 20px auto;
+}
+
+#footer-content {
+    margin-top: 32px;
+    text-align: center;
+    color: #FFF;
+}
+
+.gaia-logo a {
+    background: url(https://gaia.hs.llnwd.net/e1/images/gaia_global/gaia_header/br_gaia_logo_header.png) no-repeat scroll left top transparent;
+    display: block;
+    text-indent: -1000px;
+    height: 57px;
+    width: 121px;
+}
+
+.gaia-logo a:hover {
+    background-position: left bottom;
+}
+
+#content {
+    background-color: #FFF;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 10px solid #D1D1D1;
+}
+
+.simple-default-container {
+    padding: 20px;
+}
